@@ -1,5 +1,3 @@
 class ApplicationController < ActionController::Base
-    def hello 
-        render html: 'Hello World!'
-    end
+    self.abstract_class = true
 end
